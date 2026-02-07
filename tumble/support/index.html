@@ -1,97 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tumble Support</title>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #ddd;
-        color: #333;
-    }
-    header {
-        background-color: #82A5DC;
-        color: white;
-        padding: 10px 20px;
-        text-align: center;
-    }
-    section {
-        padding: 20px;
-        margin: 10px;
-        background-color: white;
-        border-radius: 8px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    footer {
-        text-align: center;
-        padding: 10px 0;
-        background-color: #ddd;
-    }
-    h1, h2 {
-        color: #333;
-    }
-    p {
-        line-height: 1.6;
-    }
-    a {
-        color: #82A5DC;
-    }
-</style>
-</head>
-<body>
-<header>
-    <h1>Tumble Support Center</h1>
-    <p>Your go-to place for help and guidance on how to get the best out of Tumble!</p>
-</header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tumble — Support and how to play." />
+    <title>Tumble — Support</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body class="page-layout">
+    <header class="page-header">
+      <a href="../../">← kweon.dev</a>
+    </header>
+    <main class="page-main">
+      <h1 class="page-title">Tumble — Support</h1>
+      <div class="page-intro">
+        <p>Your go-to place for help and guidance on Tumble.</p>
+      </div>
 
-<section id="mechanics">
-    <h2>Game Mechanics</h2>
-    <p>Tumble offers a distinctive puzzle experience, characterized by a dynamic game board that rotates as tiles cascade downwards, merging seamlessly. Strategize your moves to achieve the highest score by skillfully combining tiles and earning points with each successful merge.</p>
-</section>
+      <section class="content-section" id="mechanics">
+        <h2>Game mechanics</h2>
+        <p>Tumble is a puzzle game with a dynamic board that rotates as tiles cascade and merge. Strategize to achieve the highest score by combining tiles; each merge earns points.</p>
+      </section>
 
-<section id="how-to-play">
-    <h2>How to Play</h2>
-    <ul>
-        <li>Rotate the board using a drag gesture, either clockwise or counterclockwise.</li>
-        <li>Watch as tiles cascade downwards, settling at the bottom of the board.</li>
-        <li>Tiles with the same numbers combine upon collision, merging into larger tiles.</li>
-        <li>Earn points with each successful merge. Larger merges yield larger points adding to your score.</li>
-        <li>The game concludes when the board reaches its maximum capacity, leaving no available moves to continue.</li>
-    </ul>
-</section>
+      <section class="content-section" id="how-to-play">
+        <h2>How to play</h2>
+        <ul>
+          <li>Rotate the board by dragging clockwise or counterclockwise.</li>
+          <li>Tiles cascade downward and settle at the bottom.</li>
+          <li>Tiles with the same number combine on collision into larger tiles.</li>
+          <li>Earn points with each merge; larger merges yield more points.</li>
+          <li>The game ends when the board is full and no moves remain.</li>
+        </ul>
+      </section>
 
-<section id="tips">
-    <h2>Tips for Success</h2>
-    <ul>
-        <li>Plan your moves carefully to create large merges.</li>
-        <li>Keep an eye on potential tile placements to strategize effectively.</li>
-        <li>Merge your tiles when possible to prevent your board from filling up.</li>
-        <li>Remember, you can only undo your most recent move.</li>
-        <li>Points are only collected after the game is over.</li>
-    </ul>
-</section>
+      <section class="content-section" id="tips">
+        <h2>Tips</h2>
+        <ul>
+          <li>Plan moves to create large merges.</li>
+          <li>Watch potential tile placements to strategize.</li>
+          <li>Merge when possible to avoid filling the board.</li>
+          <li>You can only undo your most recent move.</li>
+          <li>Points are tallied when the game is over.</li>
+        </ul>
+      </section>
 
-<section id="unlockables">
-    <h2>Unlockables</h2>
-    <p>Use points purchased or earned in the game to unlock new challenging grids and vibrant colors. Customize your gameplay experience with a variety of options.</p>
-</section>
+      <section class="content-section" id="unlockables">
+        <h2>Unlockables</h2>
+        <p>Use points earned or purchased in the game to unlock new grids and color themes and customize your experience.</p>
+      </section>
 
-<section id="privacy">
-    <h2>Privacy Policy</h2>
-    <p>Privacy policy can be found at <a href="http://www.kweon.dev/tumble/privacy">www.kweon.dev/tumble/privacy</a></p>
-</section>
+      <section class="content-section" id="privacy">
+        <h2>Privacy</h2>
+        <p><a href="../privacy/">Privacy policy</a></p>
+      </section>
 
-<section id="contact">
-    <h2>Contact Us</h2>
-    <p>Have questions, feedback, or suggestions? We'd love to hear from you!</p>
-    <p>Reach out to us at <a href="mailto:tumble.puzzle@gmail.com">tumble.puzzle@gmail.com</a> for assistance.</p>
-</section>
-
-<footer>
-    <p>Thank you for playing Tumble!</p>
-</footer>
-</body>
+      <section class="content-section" id="contact">
+        <h2>Contact</h2>
+        <p>Questions or feedback? Reach out at <a href="mailto:tumble.puzzle@gmail.com">tumble.puzzle@gmail.com</a>.</p>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <p><a href="../privacy/">Privacy</a> · <a href="../../">kweon.dev</a></p>
+    </footer>
+  </body>
 </html>
